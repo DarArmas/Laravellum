@@ -1,0 +1,142 @@
+form .avatar{
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.navbar .container-avatar,
+.pub_image .container-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 900px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+
+.pub_image{
+    margin-bottom: 25px;
+}
+
+.navbar .container-avatar img,
+.pub_image .container-avatar img{
+    height: 100%; 
+}
+
+.pub_image .container-avatar{
+    float:left;
+    margin-right: 15px;
+}
+
+.pub_image .data-user{
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.pub_image .data-user a{
+    color: #444;
+}
+
+.pub_image .nickname{
+    color:gray;
+    font-weight: normal;
+}
+
+.image-container{
+    width: 100%;
+    max-height: 400px;
+    overflow:hidden;
+}
+
+
+.image-detail{
+    max-height: 600px;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.pub_image .card-body{
+    padding: 0px;
+}
+
+.pub_image .description{
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.pub_image .btn-comments{
+   margin:20px;
+   margin-top: 0px;
+   margin-left: 0px;
+}
+
+.likes{
+    float:left;
+    padding-left:20px;
+    padding-right: 10px;    
+}
+
+
+.likes img{
+    width:20px;
+}
+
+.pub_image_detail .comments{
+    padding:20px;
+}
+
+
+.number_likes{
+    color:gray;
+    font-size: 11px;
+}
+
+.profile-user{
+    /*recuerda que para poder un margin bottom la altura no puede ser automatica*/
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+
+.profile-user .container-avatar{
+    float:left;
+    width:200px;
+    height: 200px;
+    border-radius: 900px;
+    overflow: hidden;
+}
+
+
+.profile-user .container-avatar img{
+    height: 100%;
+    width: 100%; /*para que la imagen se ajuste al circulo*/
+    
+}
+
+.profile-user .user-info{
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+.edit{
+   width: 200px;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 96px;
+    margin-bottom: 15px;
+}
+
+.btn-search{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+   
+  }
